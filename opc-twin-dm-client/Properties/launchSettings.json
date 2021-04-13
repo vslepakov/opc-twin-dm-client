@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "opc-twin-dm-client": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

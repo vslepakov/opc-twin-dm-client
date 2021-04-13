@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opc-twin-dm-client", "opc-twin-dm-client\opc-twin-dm-client.csproj", "{7C0E9A5C-6891-4556-9F22-995081404BE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.IIoT.OpcUa.Api.Twin", "Microsoft.Azure.IIoT.OpcUa.Api.Twin\src\Microsoft.Azure.IIoT.OpcUa.Api.Twin.csproj", "{81BF0900-4D16-416A-911E-C077102FBCF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.IIoT.OpcUa.Api", "Microsoft.Azure.IIoT.OpcUa.Api\src\Microsoft.Azure.IIoT.OpcUa.Api.csproj", "{072CF028-321B-40DC-BFB4-6FF667A9A4A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.IIoT.Abstractions", "common\Microsoft.Azure.IIoT.Abstractions\src\Microsoft.Azure.IIoT.Abstractions.csproj", "{73AEB7E2-A918-41BF-AEC2-697A88AF69A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.IIoT.Core", "common\Microsoft.Azure.IIoT.Core\src\Microsoft.Azure.IIoT.Core.csproj", "{A192E522-A886-4CF0-A26C-C7BCEEF35BC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.IIoT.Serializers.NewtonSoft", "common\Microsoft.Azure.IIoT.Serializers.NewtonSoft\src\Microsoft.Azure.IIoT.Serializers.NewtonSoft.csproj", "{BA9746AB-3BB6-4E11-BDF7-4EFC1314E0A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C0E9A5C-6891-4556-9F22-995081404BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0E9A5C-6891-4556-9F22-995081404BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0E9A5C-6891-4556-9F22-995081404BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0E9A5C-6891-4556-9F22-995081404BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BF0900-4D16-416A-911E-C077102FBCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BF0900-4D16-416A-911E-C077102FBCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BF0900-4D16-416A-911E-C077102FBCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BF0900-4D16-416A-911E-C077102FBCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072CF028-321B-40DC-BFB4-6FF667A9A4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072CF028-321B-40DC-BFB4-6FF667A9A4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072CF028-321B-40DC-BFB4-6FF667A9A4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072CF028-321B-40DC-BFB4-6FF667A9A4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AEB7E2-A918-41BF-AEC2-697A88AF69A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AEB7E2-A918-41BF-AEC2-697A88AF69A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AEB7E2-A918-41BF-AEC2-697A88AF69A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AEB7E2-A918-41BF-AEC2-697A88AF69A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A192E522-A886-4CF0-A26C-C7BCEEF35BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A192E522-A886-4CF0-A26C-C7BCEEF35BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A192E522-A886-4CF0-A26C-C7BCEEF35BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A192E522-A886-4CF0-A26C-C7BCEEF35BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9746AB-3BB6-4E11-BDF7-4EFC1314E0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9746AB-3BB6-4E11-BDF7-4EFC1314E0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9746AB-3BB6-4E11-BDF7-4EFC1314E0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9746AB-3BB6-4E11-BDF7-4EFC1314E0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C312AC-217B-4EA0-8F22-44F30A1D4DCE}
+	EndGlobalSection
+EndGlobal
